@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js-paliedispari</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Controlla se la tua parola è palindroma</h1>
+        <div>
+            <input id="name" type="text">
+            <button id="check">Controlla se la tua parola è palindroma</button>
+        </div>
+        <div class="control">
+            <p id="reverseWord">
+                <span>Parola Girata</span>
+            </p>
+            <p id="controlV"></p>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Scegli da che lato stare</h1>
+        <div>
+            <select name="EvenOrAdd" id="evenOrAdd">
+                <option value="0">pari</option>
+                <option value="1">dispari</option>
+            </select>
+            <select name="numberUser" id="numberUser">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <button id="startGame">Fight</button>
+        </div>
+        
+        <div class="control">
+            <p class="yourNumber">
+                Il tuo numero
+            </p>
+            <p class="winOrLose">
+                Risultato
+            </p>
+            <p class="pcNumber">
+                Il numero sfidante
+            </p>
+        </div>
+    </div>
+    
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
